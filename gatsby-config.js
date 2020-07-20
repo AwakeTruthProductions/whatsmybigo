@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Starter Landing Page`,
-    description: `A barebone landing page starter with some minimal styles.`,
-    author: `@gillkyle`,
-    siteUrl: `https://gatsby-starter-landing-page.netlify.com`,
+    title: `Whats My Big O`,
+    description: `A simple web application used to visualize code time complexity`,
+    author: `@will.hayslett`,
+    siteUrl: `https://whatsmybigo.com`,
   },
   plugins: [
+    'gatsby-plugin-theme-ui',
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
