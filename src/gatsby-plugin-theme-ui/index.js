@@ -5,5 +5,10 @@ export default {
   ...tailwind,
   fonts: {
     ...tosh.fonts
+  },
+  forms: {
+    select: {
+      marginBottom: 16
+    }
   }
 }
